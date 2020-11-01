@@ -14,6 +14,8 @@
 		9F8C3927254E649F006F585D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8C3925254E649F006F585D /* LaunchScreen.storyboard */; };
 		9F8C3932254E649F006F585D /* PickAColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C3931254E649F006F585D /* PickAColorTests.swift */; };
 		9F8C393D254E649F006F585D /* PickAColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C393C254E649F006F585D /* PickAColorUITests.swift */; };
+		9F8C3951254E659F006F585D /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C3950254E659F006F585D /* ColorTableViewController.swift */; };
+		9F8C3956254E6748006F585D /* SelectedColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C3955254E6748006F585D /* SelectedColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9F8C3938254E649F006F585D /* PickAColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8C393C254E649F006F585D /* PickAColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAColorUITests.swift; sourceTree = "<group>"; };
 		9F8C393E254E649F006F585D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8C3950254E659F006F585D /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		9F8C3955254E6748006F585D /* SelectedColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				9F8C391A254E649C006F585D /* AppDelegate.swift */,
 				9F8C391C254E649C006F585D /* SceneDelegate.swift */,
 				9F8C3920254E649C006F585D /* Main.storyboard */,
+				9F8C3955254E6748006F585D /* SelectedColorViewController.swift */,
 				9F8C3923254E649F006F585D /* Assets.xcassets */,
 				9F8C3925254E649F006F585D /* LaunchScreen.storyboard */,
 				9F8C3928254E649F006F585D /* Info.plist */,
+				9F8C3950254E659F006F585D /* ColorTableViewController.swift */,
 			);
 			path = PickAColor;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8C391B254E649C006F585D /* AppDelegate.swift in Sources */,
+				9F8C3956254E6748006F585D /* SelectedColorViewController.swift in Sources */,
+				9F8C3951254E659F006F585D /* ColorTableViewController.swift in Sources */,
 				9F8C391D254E649C006F585D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
