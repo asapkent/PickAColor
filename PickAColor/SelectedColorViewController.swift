@@ -8,10 +8,11 @@
 import UIKit
 
 class SelectedColorViewController: UIViewController {
+    var color: UIColor?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = color ?? .blue
     }
     
 }
